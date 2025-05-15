@@ -262,9 +262,10 @@ GLOBAL_DATUM_INIT(data_core, /datum/datacore, new)
 	else
 		assignment = "Unassigned"
 
-	var/id = add_zero(num2hex(target.gid), 6) //this was the best they could come up with? A large random number? *sigh*
-	//var/icon/front = new(get_id_photo(H), dir = SOUTH)
-	//var/icon/side = new(get_id_photo(H), dir = WEST)
+	var/id = add_leading(num2hex(target.gid), 6) //this was the best they could come up with? A large random number? *sigh*
+	var/icon/front = new(get_id_photo(target), dir = SOUTH)
+	var/icon/side = new(get_id_photo(target), dir = WEST)
+
 
 	//General Record
 	var/datum/data/record/record_general = new()
