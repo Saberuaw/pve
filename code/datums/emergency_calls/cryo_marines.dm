@@ -49,7 +49,7 @@
 		leader = human
 		leaders++
 		human.client?.prefs.copy_all_to(human, JOB_SQUAD_LEADER, TRUE, TRUE)
-		to_chat(human, SPAN_ROLE_HEADER("You are a Squad Leader in the USCM"))
+		to_chat(human, SPAN_ROLE_HEADER("You are a Fireteam Leader in the USCM"))
 		to_chat(human, SPAN_ROLE_BODY("You are here to assist in the defence of [SSmapping.configs[GROUND_MAP].map_name]. Listen to the chain of command."))
 		to_chat(human, SPAN_BOLDWARNING("If you wish to cryo or ghost upon spawning in, you must ahelp and inform staff so you can be replaced."))
 	else if (heavies < max_heavies && (!mind || (HAS_FLAG(human.client.prefs.toggles_ert, PLAY_HEAVY) && check_timelock(human.client, JOB_SQUAD_SPECIALIST, time_required_for_job))))
