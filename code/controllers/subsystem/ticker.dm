@@ -75,7 +75,7 @@ SUBSYSTEM_DEF(ticker)
 			if(isnull(start_at))
 				start_at = time_left || world.time + (CONFIG_GET(number/lobby_countdown) * 10)
 			to_chat_spaced(world, type = MESSAGE_TYPE_SYSTEM, margin_top = 2, margin_bottom = 0, html = SPAN_ROUNDHEADER("TRCM13 Alien evreninden esinlenen, MRP bir sunucudur. Rehberlerden ve yeni gelen değişikliklerden haberdar olmak için discord sunucumuza <a href=https://discord.gg/FNXdAHDAXw/>https://discord.gg/FNXdAHDAXw</a> adresinden katılabilirsin.[CONFIG_GET(string/servername)]"))
-			to_chat_spaced(world, type = MESSAGE_TYPE_SYSTEM, margin_top = 0, html = SPAN_ROUNDBODY("Karakterini Hazırla ve Ready tuşuna bas. Oyun [floor(time_left / 10) || CONFIG_GET(number/lobby_countdown)] saniye içinde başlayacak."))
+			to_chat_spaced(world, type = MESSAGE_TYPE_SYSTEM, margin_top = 0, html = SPAN_ROUNDBODY("Lütfen karakterini oluştur ve ready ver. Oyun [floor(time_left / 10) || CONFIG_GET(number/lobby_countdown)] saniye içinde başlayacak."))
 			SEND_GLOBAL_SIGNAL(COMSIG_GLOB_MODE_PREGAME_LOBBY)
 			current_state = GAME_STATE_PREGAME
 			fire()
