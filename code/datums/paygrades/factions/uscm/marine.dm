@@ -8,56 +8,56 @@
 
 /datum/paygrade/marine/e1
 	paygrade = PAY_SHORT_ME1
-	name = "Private"
-	prefix = "PVT"
+	name = "Er"
+	prefix = "Er"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/e1
 	ranking = 0
 	pay_multiplier = 1.6
 
 /datum/paygrade/marine/e2
 	paygrade = PAY_SHORT_ME2
-	name = "Private First Class"
-	prefix = "PFC"
+	name = "Kıdemli Er"
+	prefix = "KEr"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/e2
 	ranking = 1
 	pay_multiplier = 1.7
 
 /datum/paygrade/marine/e3
 	paygrade = PAY_SHORT_ME3
-	name = "Lance Corporal"
-	prefix = "LCpl"
+	name = "Onbaşı"
+	prefix = "Onb"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/e3
 	ranking = 2
 	pay_multiplier = 1.9
 
 /datum/paygrade/marine/e4
 	paygrade = PAY_SHORT_ME4
-	name = "Corporal"
-	prefix = "Cpl"
+	name = "Kıdemli Onbaşı"
+	prefix = "KdmOnb"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/e4
 	ranking = 3
 	pay_multiplier = 2.1
 
 /datum/paygrade/marine/e5
 	paygrade = PAY_SHORT_ME5
-	name = "Sergeant"
-	prefix = "Sgt"
+	name = "Çavuş"
+	prefix = "Çvş"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/e5
 	ranking = 4
 	pay_multiplier = 2.2
 
 /datum/paygrade/marine/e6
 	paygrade = PAY_SHORT_ME6
-	name = "Staff Sergeant"
-	prefix = "SSgt"
+	name = "Uzman Çavuş"
+	prefix = "UzmÇvş"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/e6
 	ranking = 5
 	pay_multiplier = 2.4
 
 /datum/paygrade/marine/e7
 	paygrade = PAY_SHORT_ME7
-	name = "Gunnery Sergeant"
-	prefix = "GySgt"
+	name = "Astsubay Kıdemli Çavuş"
+	prefix = "AKdmÇvş"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/e7
 	ranking = 6
 	pay_multiplier = 2.75
@@ -148,8 +148,8 @@
 
 /datum/paygrade/marine/o1
 	paygrade = PAY_SHORT_MO1
-	name = "Second Lieutenant"
-	prefix = "2ndLt"
+	name = "Teğmen"
+	prefix = "Tğm"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/o1
 	ranking = 17
 	pay_multiplier = 3
@@ -157,8 +157,8 @@
 
 /datum/paygrade/marine/o2
 	paygrade = PAY_SHORT_MO2
-	name = "First Lieutenant"
-	prefix = "1stLt"
+	name = "Üsteğmen"
+	prefix = "ÜTğm"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/o2
 	ranking = 18
 	pay_multiplier = 3.2
@@ -194,8 +194,8 @@
 //Platoon Commander
 /datum/paygrade/marine/o6
 	paygrade = PAY_SHORT_MO6
-	name = "Colonel"
-	prefix = "Col"
+	name = "Albay"
+	prefix = "Alb"
 	rank_pin = /obj/item/clothing/accessory/ranks/marine/o6
 	ranking = 22
 	pay_multiplier = 4.4

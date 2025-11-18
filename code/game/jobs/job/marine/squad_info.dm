@@ -171,7 +171,7 @@
 				if(JOB_SQUAD_SPECIALIST)
 					rank = "Spc"
 				if(JOB_SQUAD_TEAM_LEADER)
-					rank = "SqLdr"
+					rank = "FTL"
 				if(JOB_SQUAD_LEADER)
 					rank = "SctSgt"
 				if(JOB_SQUAD_RTO)
@@ -250,7 +250,7 @@
 					if(JOB_SQUAD_SPECIALIST)
 						rank = "Spc"
 					if(JOB_SQUAD_TEAM_LEADER)
-						rank = "SqLdr"
+						rank = "FTL"
 					if(JOB_SQUAD_LEADER)
 						rank = "SctSgt"
 					if(JOB_SQUAD_RTO)
@@ -299,7 +299,7 @@
 					if(JOB_SQUAD_SPECIALIST)
 						rank = "Spc"
 					if(JOB_SQUAD_TEAM_LEADER)
-						rank = "SqLdr"
+						rank = "FTL"
 					if(JOB_SQUAD_LEADER)
 						rank = "SctSgt"
 					if(JOB_SQUAD_RTO)
