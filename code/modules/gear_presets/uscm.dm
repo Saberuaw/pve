@@ -323,7 +323,7 @@
 	assignment = JOB_SQUAD_TEAM_LEADER
 	rank = JOB_SQUAD_TEAM_LEADER
 	paygrades = list(PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_0)
-	role_comm_title = "SqLdr"
+	role_comm_title = "FTL"
 	skills = /datum/skills/tl
 	minimap_icon = "tl"
 
@@ -589,7 +589,7 @@
 	assignment = JOB_SQUAD_TEAM_LEADER
 	rank = JOB_SQUAD_TEAM_LEADER
 	paygrades = list(PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_0)
-	role_comm_title = "SqLdr"
+	role_comm_title = "FTL"
 	skills = /datum/skills/tl
 
 	minimap_icon = "tl"
